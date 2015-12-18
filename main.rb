@@ -1,6 +1,6 @@
  require "sinatra"
 
-get '/' do
+get '/home' do
 	erb :home
 end
 
@@ -17,5 +17,9 @@ get '/contact' do
 end
 
 post '/contact' do
-	puts "Thanks for contacting us." + params.inspect
+	redirect to ('/thanks')
+end
+
+get '/thanks' do 
+erb :thanks
 end
