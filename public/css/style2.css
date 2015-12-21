@@ -60,6 +60,7 @@ li a:hover {
 	right: 40px;
 	width: 64px;
 	padding:5px;
+	z-index: 1;
 }
 
 /*############ Contact Page ################*/
@@ -115,7 +116,7 @@ li a:hover {
 	height: 450px;
 	margin-top:10%;
 	background-color: #23c4a9;
-	box-shadow: 0px 0px 7px 0px #888888;
+	box-shadow: 0px 0px 10px 0px #888888;
 	position: relative;
 }
 
@@ -134,8 +135,8 @@ li a:hover {
 	float: left;
 	margin-right: 25px;
 	border-radius: 5px;
+	box-shadow: 0px 0px 10px 0px #888888;
 	background-color: #f4f4f4;
-	box-shadow: 0px 0px 7px 0px #888888;
 }
 
  #trainer_1 img {
@@ -147,8 +148,8 @@ li a:hover {
 	float: left;
 	margin-left: 25px;
 	border-radius: 5px;
-	background-color: #f4f4f4;
-	box-shadow: 0px 0px 7px 0px #888888;
+	box-shadow: 0px 0px 10px 0px #888888;
+	background-color: #f4f4f4;	
 }
 
  #trainer_2 img {
