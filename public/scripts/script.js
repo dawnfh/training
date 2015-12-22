@@ -10,19 +10,19 @@ $(document).ready(function(){
   
   $("#about_container").mouseenter(
   	function(){
-  		$(this).animate({width: '60%'},1000),
+  		$(this).animate({width: '60%'},500),
   		$("#about_image_container").animate({
   			width: '39%'
-  		},1000),
+  		},500),
   		$(".entire_team p").show();
   	});
 
    $("#about_container").mouseleave(
   	function(){
-  		$(this).animate({width: '20%'},1000),
+  		$(this).animate({width: '20%'},500),
   		$("#about_image_container").animate({
   			width: '59%'
-  		},1000),
+  		},500),
   		$(".entire_team p").hide();
   	});
 
