@@ -125,7 +125,7 @@ li a:hover {
 
 /*############### About page ####################*/
 #about_container {
-	width: 20%;
+	width: 3%;
 	height: 450px;
 	margin-top:10%;
 	background-color: #63230B;
@@ -134,8 +134,20 @@ li a:hover {
 	float: left;
 }
 
-#about_container p {
+#static_text {
 	text-align: center;
+	text-decoration: underline;
+	color: gray;
+	display: none;
+}
+
+#rotated_text {
+	transform: rotate(90deg);
+	color: white;
+}
+
+#about_container p {
+	text-align: right;
 	color: gray;
 }
 
@@ -184,7 +196,9 @@ li a:hover {
 .images {
 	width: 150px;
 	margin:20px 10px 10px 15px;
+	display:none;
 }
+
 
 #about_image_container {
 	width: 59%;
@@ -195,6 +209,24 @@ li a:hover {
 	/*background-color: #63230B;*/
 	float: right;
 	overflow: none;
+}
+
+#mission_statement {
+	width: 470px;
+	height: 450px;
+	margin-top: 10%;
+	margin-left: 8px;
+	background-color: #00B08E;
+	float: left;
+}
+
+#mission_statement h3 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+#mission_statement p {
+	padding: 15px;
 }
 
 #gym1_image {
