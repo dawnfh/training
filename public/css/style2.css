@@ -229,6 +229,17 @@ li a:hover {
 	padding: 15px;
 }
 
+#ms_image_container {
+	width: 100%;
+}
+.ms_images {
+	width: 200px;
+}
+
+#ms_image1 {
+	margin-left: 28px;
+}
+
 #gym1_image {
 	width: 100%;
 	height: auto;
