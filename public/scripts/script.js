@@ -1,4 +1,8 @@
+
+
 $(document).ready(function(){
+
+  // ########### HOME PAGE #############
 
 	$( "#name" ).hide().show( "slow" );
 
@@ -8,6 +12,10 @@ $(document).ready(function(){
 
   $("#name").animate({left: '700px'});
   
+
+  // ########### ABOUT PAGE ################
+
+
   $("#about_container").mouseenter(
   	function(){
   		$(this).animate({width: '60%'},500),
@@ -31,6 +39,9 @@ $(document).ready(function(){
       $(".images").hide();
   		$(".entire_team p").hide();
   	});
+
+
+   //############ CONTACT PAGE ############
 
 
 });
