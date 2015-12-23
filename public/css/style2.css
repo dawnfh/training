@@ -122,15 +122,41 @@ li a:hover {
 }
 
 /*--------- CONTACT FIELD ----------*/
+#contact_image {
+	width: 26.3%;
+	height: 437px;
+	margin-top: 10%;
+	float:left;
+}
 
+#contact_image img {
+	width: 331px;
+	height: 435px;
+	max-height: 435px;
+}
+
+#contact_statement {
+	width: 33%;
+	height: 436px;
+	margin-top:10%;
+	margin-right: 3px;
+	background-color:#63230B;
+	float: left;
+}
+
+#contact_statement p {
+	padding: 20px;
+}
 #contact_container {
-	width: 100%;
+	width: 40%;
 	height: 360px;
 	margin-top:10%;
+	margin-left: 3px;
 	padding-top: 25px;
   padding-bottom: 50px;
 	background-color: #23c4a9;
-	position: relative;
+	float: left;
+	/*position: relative;*/
 }
 
 #contact {
