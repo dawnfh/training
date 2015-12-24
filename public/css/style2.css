@@ -10,13 +10,18 @@ body {
   font-family: 'Lora', serif;
 }
 
+#logo {
+    display: inline-block;
+    position: fixed;
+    width: 50px
+}
+
 #name {
 	font-size: 6em;
 	margin-top: 5%;
 	position: absolute;
 	color: #a70b0b;
 }
-
 
 /* fixed navbar on top */
 #fixed_nav {
@@ -30,7 +35,9 @@ body {
 }
 
 ul {
+	list-style-type: none;
 	margin-top: 8px;
+
 }
 
 #fixed_nav li{
@@ -49,6 +56,8 @@ ul {
 li a:hover {
     background-color: #f8f8f9;
     border-radius: 20px;
+    border: 1px;
+    border-color: #a70b0b;
     color: white;
 }
 
@@ -62,10 +71,6 @@ li a:hover {
 	padding:5px;
 	z-index: 1;
 }
-
-
-/*############ Contact Page ################*/
-
 
 #home_container{
 	width: 100%;
@@ -166,6 +171,7 @@ li a:hover {
 }
 
 #contact input{
+	font-size: 15px;
 	width: 100px;
 	width: 280px;
   height: 35px;
@@ -174,6 +180,7 @@ li a:hover {
 }
 
 #contact textarea {
+	font-size: 15px;
 	width: 280px;
 	height: 200px;
 	border-radius: 5px;
@@ -192,6 +199,8 @@ li a:hover {
 
 /*############### About page ####################*/
 #about_container {
+	color: #ffffff;
+	padding-right: 20px;
 	width: 3%;
 	height: 450px;
 	margin-top:10%;
@@ -296,4 +305,10 @@ li a:hover {
  	clear: both;
  }
 
+/*############### Services Page ####################*/
+
+#ser {
+	margin: 150px;
+	color: white;
+}
 
