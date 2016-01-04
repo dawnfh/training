@@ -79,9 +79,13 @@ $(document).ready(function(){
       });
 });
    
+   //Services
 
+   $( "#cross_fit" ).hide().show( 4000 );
 
-        
+   $("#body_build").hide().show(4000);
+
+  
  
 
 

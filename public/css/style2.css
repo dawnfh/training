@@ -307,8 +307,25 @@ li a:hover {
 
 /*############### Services Page ####################*/
 
-#ser {
+.ser {
 	margin: 150px;
 	color: white;
+	text-align: center;
+}
+#body_build{
+margin-top: 300px;
+float:left;
 }
 
+#cross_fit{
+	margin-top: 70px;
+	margin-right: 50px;
+	float:right;
+	
+}
+
+#services_container{
+	width: 100%;
+	height: 450px;
+	margin-top:100px;
+}
